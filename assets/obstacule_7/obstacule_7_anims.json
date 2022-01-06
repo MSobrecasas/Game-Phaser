@@ -1,0 +1,32 @@
+{
+    "anims": [
+        {
+            "key": "obstacule_7_run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "obstacule_7",
+                    "frame": "obstacule_7_run_0"
+                },
+                {
+                    "key": "obstacule_7",
+                    "frame": "obstacule_7_run_1"
+                },
+                {
+                    "key": "obstacule_7",
+                    "frame": "obstacule_7_run_2"
+                },
+                {
+                    "key": "obstacule_7",
+                    "frame": "obstacule_7_run_3"
+                },
+                {
+                    "key": "obstacule_7",
+                    "frame": "obstacule_7_run_4"
+                }
+            ]
+        }
+    ]
+}

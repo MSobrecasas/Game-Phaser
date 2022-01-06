@@ -1,0 +1,56 @@
+{
+    "frames": [
+        {
+            "filename": "player_flap_0",
+            "frame": {
+                "x": 5,
+                "y": 8, 
+                "w": 69,
+                "h": 46
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "player_flap_1",
+            "frame": { 
+                "x": 76,
+                "y": 8,
+                "w": 69,
+                "h": 46
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "player_flap_2",
+            "frame": {
+                "x": 148,
+                "y": 8,
+                "w": 69,
+                "h": 46
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "player_flap_3",
+            "frame": {
+                "x": 221,
+                "y": 8,
+                "w": 69,
+                "h": 46
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

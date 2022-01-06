@@ -1,0 +1,82 @@
+{
+    "frames": [
+        {
+            "filename": "obstacule_4_run_0",
+            "frame": {
+                "x": 9,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_4_run_1",
+            "frame": {
+                "x": 56,
+                "y": 10,
+                "w": 37,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_4_run_2",
+            "frame": {
+                "x": 99,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_4_run_3",
+            "frame": {
+                "x": 145,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_4_run_4",
+            "frame": {
+                "x": 188,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_4_run_5",
+            "frame": {
+                "x": 234,
+                "y": 10,
+                "w": 40,
+                "h": 15
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

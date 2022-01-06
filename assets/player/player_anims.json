@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "player_run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "player_run_0"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_1"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_2"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_3"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_4"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_5"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_run_6"
+                }
+            ]
+        },
+        {
+            "key": "player_jump",
+            "type": "frames",
+            "repeat": 1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "player_jump_0"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_jump_1"
+                },
+                {
+                    "key": "player",
+                    "frame": "player_jump_2"
+                }
+            ]
+        }
+    ]
+}

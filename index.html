@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TrabajoFinal</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #2c3e50;
+        }
+    </style>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-1 text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-2" aria-label="Fifth navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Unju</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#seccion1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccion2">Requisitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#seccion3">Juego</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="image-background row text-center p-5">
+        <div class="col-xl-12">
+            <p class="display-3", style="color: rgb(0, 255, 128);">Dash Crossing Race</p>
+            <p class="display-4", style="color: rgb(0, 255, 128);">Podras llegar al final en una pieza</p>
+            <p, style="color: rgb(0, 255, 128);">
+                Un juego inspirado en geometry dash conformado por el mismo sistema de gestion de victoria donde el jugador debera pasar una serie de niveles esquivando obstaculos, si logra hacerlo pasara al siguiente nivel y asi succesivamente llegar al final.  
+            </p>
+        </div>
+    </section>
+    <section class="container py-5">
+        <p class="display-5 ">Trailer</p>
+        <div id="seccion1" class="row">
+            <div class="col-md-10 col-xl-8 card m-auto">
+                <video controls>
+                    <source src="assets/frontend/video/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-12 col-xl-4 card">
+                <div class="card-body">
+                    <p>Información legal y del juego</p>
+                    <p class="card-text py-2">
+                        
+                        Nuestro equipo ah desarrollado un juego sencillo con algunos asset de nuestra autoria donde buscabamos que se acomode con nuestra idea de 8bits inicialmente la idea salio de que podria tornarse divertido pensar que un personaje en un vehiculo tenga que pasar por un piso franco.
+                        tuvimos varias reuniones por Discord para poder organizarnos y repartirnos las tarea mientras formabamos la idea del juego donde remplanteabamos los ecenarios. Para no complicarnos mucho creamos un drive donde ibamos dejando las tareas para realizar y dejando la version final del juego.
+
+                
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <p>
+                    El juego promete contar la historia de Jax sera el protagonista de nuestra entrega que debe escapar de un sueño atravez de su fiel moto/triciclo afrontando las frias alcantarrillas, un par de edificios y para finalizar los techos de la gran ciudad Arkin City.
+                        Con un lindo game style de 8bits para recordar buenas entregas buenas entrega del pasado con la jugabilidad de la actualidad.
+                </p>
+            </div>
+            <div id="seccion2" class="col-md-12">
+                <p class="display-5">Requisitos para Windows</p>
+                <div class="row no-gutters">
+                    <div class="card col-md-6">
+                        <div class="card-body">
+                            <p class="card-title display-6">Minimos</p>
+                            <div class="card-text bg-card">
+                                <p><b>OS</b>: Windows Vista Service Pack 2 32-bit</p>
+                                <p><b>Processor</b>: Intel Core 2 DUO 2.4 GHz</p>
+                                <p><b>Memoria</b>: 2GB</p>
+                                <p><b>Disco duro</b>: 20 GB free</p>
+                                <p><b>Placa de video</b>: DirectX10 Compatible ATI Radeon HD 3870</p>
+                                <p><b>Memoria placa de video</b>: 512 MB</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-md-6">
+                        <div class="card-body">
+                            <p class="card-title display-6">Recomendados</p>
+                            <div class="card-text bg-card">
+                                <p><b>OS</b>: Windows 7 Service Pack 1 64-bit</p>
+                                <p><b>Processor</b>: Quad Core Processor</p>
+                                <p><b>Memoria</b>: 4GB</p>
+                                <p><b>Disco duro</b>: 30 GB free</p>
+                                <p><b>Placa de video</b>: DirectX11 Compatible, AMD Radeon HD</p>
+                                <p><b>Memoria placa de video</b> <b>Memoria</b>: 1024 MB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row no-gutters">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--GAME HERE-->
+        
+        <p id="seccion3" class="display-5 ">Juego</p>
+        <div  id="phaser_container">
+        </div>
+    </section>
+    <footer class="bg-2 pt-3">
+        <section>
+            <div class="container text-md-start mt-5">
+                <div class="row mt-3 text-center">
+                    <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+                        <h6 class="fw-bold mb-4"><i class="fas fa-gem me-3"></i>¿QUIENES SOMOS?</h6>
+                        <p>
+                            Don't know but it works un grupo universitario con grandes ambiciones en la creacion de video juegos, como novatos en este gran mundo informatico tenemos ese nombre por que nos parecio ideal para comenzar como diciendo "no lo se pero funciona y sirve" asi que seguiremos adelantes con otros proyectos.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-4 mb-4">
+                        <h6 class="fw-bold mb-4">INFORMACION</h6>
+                        <p><i class="fas fa-home me-3"></i> San Salvador de Jujuy</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@ejemplo.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +54388123123</p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-4 mb-4 contact-clean">
+                        <form>
+                            <h6 class="fw-bold mb-4">CONTACTO</h6>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="text" name="name" placeholder="Nombre">
+                            </div>
+                            <div class="form-group mb-3">
+                                <input class="form-control" type="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group mb-3">
+                                <textarea class="form-control" name="message" placeholder="Mensaje" rows="7"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-outline-success" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center pt-3 bg-3">
+            <div>
+                <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-google"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-github"></i></a>
+            </div>
+            <p>© 2021 Copyright</p>
+        </div>
+    </footer>
+    <script src="./node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./obstacules/apiClient.js"></script>
+    <script src="./src/main.js" type="module"></script>
+</body>
+
+</html>

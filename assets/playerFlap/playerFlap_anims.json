@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "player_flap",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_flap",
+                    "frame": "player_flap_0"
+                },
+                {
+                    "key": "player_flap",
+                    "frame": "player_flap_1"
+                },
+                {
+                    "key": "player_flap",
+                    "frame": "player_flap_2"
+                },
+                {
+                    "key": "player_flap",
+                    "frame": "player_flap_3"
+                }
+            ]
+        }
+    ]
+}

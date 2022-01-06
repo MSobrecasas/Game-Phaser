@@ -1,0 +1,36 @@
+{
+    "anims": [
+        {
+            "key": "obstacule_3_run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_0"
+                },
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_1"
+                },
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_2"
+                },
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_3"
+                },
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_4"
+                },
+                {
+                    "key": "obstacule_3",
+                    "frame": "obstacule_3_run_5"
+                }
+            ]
+        }
+    ]
+}

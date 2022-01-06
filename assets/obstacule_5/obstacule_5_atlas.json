@@ -1,0 +1,108 @@
+{
+    "frames": [
+        {
+            "filename": "obstacule_5_run_0",
+            "frame": {
+                "x": 12,
+                "y": 3,
+                "w": 40,
+                "h": 23
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_1",
+            "frame": {
+                "x": 56,
+                "y": 10,
+                "w": 21,
+                "h": 38
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_2",
+            "frame": {
+                "x": 52,
+                "y": 15,
+                "w": 27,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_3",
+            "frame": {
+                "x": 100,
+                "y": 27,
+                "w": 25,
+                "h": 10
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_4",
+            "frame": {
+                "x": 146,
+                "y": 22,
+                "w": 22,
+                "h": 26
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_5",
+            "frame": {
+                "x": 226,
+                "y": 18,
+                "w": 21,
+                "h": 28
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_6",
+            "frame": {
+                "x": 266,
+                "y": 24,
+                "w": 21,
+                "h": 17
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "obstacule_5_run_7",
+            "frame": {
+                "x": 309,
+                "y": 20,
+                "w": 27,
+                "h": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ]
+}

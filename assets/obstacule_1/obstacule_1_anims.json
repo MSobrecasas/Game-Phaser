@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "obstacule_1_run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_0"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_1"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_2"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_3"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_4"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_5"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_6"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_7"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_8"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_9"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_10"
+                },
+                {
+                    "key": "obstacule_1",
+                    "frame": "obstacule_1_run_11"
+                }
+            ]
+        }
+    ]
+}
